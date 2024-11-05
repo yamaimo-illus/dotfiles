@@ -7,6 +7,7 @@ import { installDelta } from './delta.js'
 import { installEza } from './eza.js'
 import { installFfmpeg } from './ffmpeg.js'
 import { installFzf } from './fzf.js'
+import { installGitHubCli } from './github-cli.js'
 import { installJq } from './jq.js'
 import { installTree } from './tree.js'
 import { installVolta } from './volta.js'
@@ -21,6 +22,7 @@ export {
   installEza,
   installFfmpeg,
   installFzf,
+  installGitHubCli,
   installJq,
   installStow,
   installTmux,

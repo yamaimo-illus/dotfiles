@@ -6,6 +6,7 @@ import {
   installEza,
   installFfmpeg,
   installFzf,
+  installGitHubCli,
   installJq,
   installStow,
   installTmux,
@@ -39,6 +40,7 @@ async function main() {
   await installEza()
   await installFfmpeg()
   await installFzf()
+  await installGitHubCli()
   await installJq()
   await installTree()
   await installVolta()
