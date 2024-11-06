@@ -58,21 +58,22 @@ npm run execute
 Also, please run the following command in your terminal to install the required applications:
 
 ```plaintext
-winget install --id Amazon.Kindle
-winget install --id Bitwarden.Bitwarden
-winget install --id Discord.Discord
-winget install --id EDRLab.Thorium
-winget install --id Figma.Figma
-winget install --id Fork.Fork
-winget install --id Google.Chrome
-winget install --id Microsoft.PowerShell
-winget install --id Microsoft.PowerToys
-winget install --id Microsoft.VisualStudio.2022.Community
-winget install --id Microsoft.VisualStudioCode
-winget install --id Microsoft.WindowsTerminal
-winget install --id Notion.Notion
-winget install --id SlackTechnologies.Slack
-winget install --id Unity.UnityHub
-winget install --id Valve.Steam
-winget install fancywm
+winget install -e --id Amazon.Kindle
+winget install -e --id Bitwarden.Bitwarden
+winget install -e --id Discord.Discord
+winget install -e --id EDRLab.Thorium
+winget install -e --id Figma.Figma
+winget install -e --id Fork.Fork
+winget install -e --id Google.Chrome
+winget install -e --id Microsoft.PowerShell
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Microsoft.VisualStudio.2022.Community
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id Notion.Notion
+winget install -e --id SlackTechnologies.Slack
+winget install -e --id Unity.UnityHub
+winget install -e --id Valve.Steam
+winget install -e --id=JesseDuffield.lazygit
+winget install -e fancywm
 ```
