@@ -115,5 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+
+[ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
+
+alias cat=batcat
+alias ls="eza -1 --colour always --icons --hyperlink"
+alias mv='mv -i'
+alias rm='rm -i'
+alias cp='cp -i'
