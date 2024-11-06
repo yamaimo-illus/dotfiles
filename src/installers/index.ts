@@ -1,5 +1,4 @@
 import { installBat } from './bat.js'
-import { installDelta } from './delta.js'
 import { installEza } from './eza.js'
 import { installFfmpeg } from './ffmpeg.js'
 import { installFzf } from './fzf.js'
@@ -14,7 +13,6 @@ import { installXsel } from './xsel.js'
 
 export {
   installBat,
-  installDelta,
   installEza,
   installFfmpeg,
   installFzf,

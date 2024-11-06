@@ -38,7 +38,6 @@ npm run execute
 | Commands     | Details                                    |
 | ------------ | ------------------------------------------ |
 | bat          | https://github.com/sharkdp/bat             |
-| delta        | https://github.com/dandavison/delta        |
 | eza          | https://github.com/eza-community/eza       |
 | FFmpeg       | https://ffmpeg.org/                        |
 | fzf          | https://github.com/junegunn/fzf            |
@@ -47,9 +46,10 @@ npm run execute
 | Volta        | https://volta.sh/                          |
 | XSel         | https://github.com/kfish/xsel              |
 
-| GUIs / TUIs | Details                                  |
-| ----------- | ---------------------------------------- |
-| Tmux        | https://github.com/tmux/tmux             |
+| GUIs / TUIs | Details                                   |
+| ----------- | ----------------------------------------  |
+| Tmux        | https://github.com/tmux/tmux              |
+| Lazygit     | https://github.com/jesseduffield/lazygit  |
 
 | Other          | Details                 |
 | -------------- | ----------------------- |

@@ -2,7 +2,6 @@
 import process from 'node:process'
 import {
   installBat,
-  installDelta,
   installEza,
   installFfmpeg,
   installFzf,
@@ -37,7 +36,6 @@ async function main() {
   // Commands
   logger.info('\nCommands')
   await installBat()
-  await installDelta()
   await installEza()
   await installFfmpeg()
   await installFzf()
