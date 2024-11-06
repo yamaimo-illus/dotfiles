@@ -32,7 +32,9 @@ export async function deleteSymbolicLinks() {
 
   try {
     spinner.start(chalk.gray('Deleting symbolic links.'))
-    await execa(`stow --delete ${SYMLINKS.join(' ')} --dir=${symlinksDir} --target=$HOME`)
+    await execa(`stow -v -D ${SYMLINKS.join(' ')} --dir=${symlinksDir} --target=$HOME`, {
+      shell: true,
+    })
     spinner.stop(chalk.green('Symbolic links deleted.'))
   }
   catch (e) {
