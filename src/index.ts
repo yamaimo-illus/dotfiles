@@ -8,6 +8,7 @@ import {
   installFzf,
   installGitHubCli,
   installJq,
+  installLazygit,
   installStow,
   installTmux,
   installTree,
@@ -49,6 +50,7 @@ async function main() {
   // GUIs / TUIs
   logger.info('\nGUIs / TUIs')
   await installTmux()
+  await installLazygit()
 
   // Symbolic link
   logger.info('\nSymbolic links')
