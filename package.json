@@ -4,6 +4,7 @@
   "private": "true",
   "scripts": {
     "execute": "tsx src/index.ts",
+    "delete-symbolic-links": "tsx src/scripts/delete-symbolic-links.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

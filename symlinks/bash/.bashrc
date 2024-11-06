@@ -115,9 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH=$BUN_INSTALL/bin:$PATH
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"

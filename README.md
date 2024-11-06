@@ -1,4 +1,4 @@
-# negima's dotfiles for WSL
+# Yamaimo's dotfiles for WSL
 
 ## Requirements
 
@@ -18,14 +18,14 @@ curl https://get.volta.sh | bash
 - Clone this repository into your workspace directory.
 
 ```shell
-mkdir -p ~/Workspace
-git clone git@github.com:negimafujiwara/dotfiles-for-wsl.git ~/Workspace/dotfiles
+mkdir -p ~/ws
+git clone git@github.com:yamaimo-illus/dotfiles-for-wsl.git ~/ws/dotfiles
 ```
 
 ## Usage
 
 ```shell
-cd ~/Workspace/dotfiles
+cd ~/ws/dotfiles
 npm run execute
 ```
 
@@ -60,7 +60,7 @@ Also, please run the following command in your terminal to install the required 
 ```plaintext
 winget install --id Amazon.Kindle
 winget install --id Bitwarden.Bitwarden
-winget install --id Discord.Discord.Canary
+winget install --id Discord.Discord
 winget install --id EDRLab.Thorium
 winget install --id Figma.Figma
 winget install --id Fork.Fork
