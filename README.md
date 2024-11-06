@@ -74,6 +74,6 @@ winget install -e --id Notion.Notion
 winget install -e --id SlackTechnologies.Slack
 winget install -e --id Unity.UnityHub
 winget install -e --id Valve.Steam
-winget install -e --id=JesseDuffield.lazygit
+winget install -e --id JesseDuffield.lazygit
 winget install -e fancywm
 ```
