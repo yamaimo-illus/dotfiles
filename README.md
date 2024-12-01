@@ -9,7 +9,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl git unzip
 ```
 
-- Install Node.js (I'm using Volta)
+- Install Node.js (I personally use Volta)
 
 ```shell
 curl https://get.volta.sh | bash
