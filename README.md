@@ -19,7 +19,7 @@ curl https://get.volta.sh | bash
 
 ```shell
 mkdir -p ~/ws
-git clone git@github.com:yamaimo-illus/dotfiles-for-wsl.git ~/ws/dotfiles
+git clone git@github.com:yamaimo-illus/dotfiles.git ~/ws/dotfiles
 ```
 
 ## Usage
