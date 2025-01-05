@@ -63,15 +63,14 @@ winget install --id Bitwarden.Bitwarden
 winget install --id Discord.Discord
 winget install --id EDRLab.Thorium
 winget install --id Figma.Figma
+winget install -e --id Fork.Fork
 winget install --id Google.Chrome
 winget install --id Microsoft.PowerShell
 winget install --id Microsoft.PowerToys
-winget install --id Microsoft.VisualStudio.2022.Community
 winget install --id Microsoft.VisualStudioCode
 winget install --id Microsoft.WindowsTerminal
 winget install --id Notion.Notion
 winget install --id SlackTechnologies.Slack
-winget install --id Unity.UnityHub
 winget install --id Valve.Steam
 winget install fancywm
 ```
