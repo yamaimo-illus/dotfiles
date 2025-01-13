@@ -60,6 +60,7 @@ Also, please run the following command in your terminal to install the required 
 ```plaintext
 winget install --id Amazon.Kindle
 winget install --id Bitwarden.Bitwarden
+winget install Dataflare.Dataflare
 winget install --id Discord.Discord
 winget install --id EDRLab.Thorium
 winget install --id Figma.Figma
